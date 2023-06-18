@@ -6,22 +6,22 @@ string ugadslovo = "";
 string bukvi = "";
 int sch = 0;
 int kolvobukv = slovo.Length;
-int procent100 = kolvobukv % 100;
-int procent10 = kolvobukv % 10;
+int pr100 = kolvobukv % 100;
+int pr10 = kolvobukv % 10;
 
-if (procent100 >= 10 && procent100 <= 20)
+if (pr100 >= 10 && pr100 <= 20)
 {
     bukvi = "букв";
 }
-else if (procent10 == 1)
+else if (pr10 == 1)
 {
     bukvi = "буква";
 }
-else if (procent10 >= 2 && procent10 <= 4)
+else if (pr10 >= 2 && pr10 <= 4)
 {
     bukvi = "буквы";
 }
-else if (procent10 >= 5 && procent10 <= 9 || procent10 == 0)
+else if (pr10 >= 5 && pr10 <= 9 || pr10 == 0)
 {
     bukvi = "букв";
 }
